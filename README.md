@@ -22,3 +22,9 @@ $ docker build --tag react .
 $ docker run --publish 3000:3000 react
 ```
 
+## 5. Stop container
+```
+$ docker stop <container_name>
+
+$ docker rm <container_name>
+```
