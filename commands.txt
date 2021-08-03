@@ -1,3 +1,6 @@
 docker build --tag react .
 
 docker run --name react-container --publish 3000:3000 react
+
+docker run --name reacttest123 --publish 3000:3000 reacttest2
+
