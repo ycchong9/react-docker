@@ -1,6 +1,5 @@
 FROM node:15.13-alpine
 WORKDIR /testdocker
-ENV PATH="./node_modules/.bin:$PATH"
 COPY . .
 RUN npm run build
-CMD ["npm", "start"]
+CMD npx serve -s build -l 3000
